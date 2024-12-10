@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>damien</title>
+    <link rel="stylesheet" href="../../mainstyle.css">
+    <script type="text/javascript" src="https://www.maths.nottingham.ac.uk/plp/pmadw/LaTeXMathML.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+
+    <h1 style="font-size: 50px;">formule du polygone régulier équable</h1>
+    <div style="font-size: 35px;">
+        pour tout polygone régulier <i>P</i> de longueur de côté <i>s</i> et de nombre de côtés <i>n</i>, la longueur de côté <i>s</i> nécessaire pour que son périmètre <i>P<sub>P</sub></i> et son aire <i>A<sub>P</sub></i> sont numériquements équivalents peuvent être trouvés à l'aide de cette formule :<br><br>
+        $s = 4\tan{\frac{\pi}{n}}\;,\;\mathrm{lorsque}\;\{n\in\mathbb{N}\mid3\leq n\}$<br><br>
+        qui est dérivée par de ce qui suit :<br><br>
+        $\mathbb{{D}}:\mathbb{R}\setminus\mathbb{Z}^-$<br>
+        $F=\{P\}$<br>
+        $\forall{P}\in{F}\;:\;\exists{a=\frac{s\cot\frac{\pi}{n}}{2}}$<br>
+        $\forall{P}\in{F}\;:\;\exists{A_P=\frac{ans}{2}}$<br>
+        ${A_P=\frac{ns^2\frac{\cot\frac{\pi}{n}}{2}}{2}$<br>
+        $A_P=\frac{ns^2\cot\frac{\pi}{n}}{4}$<br>
+        $\forall{P}\in{F}\;:\;\exists{P_P=ns}$<br>
+        $\exists{P}\;:\;A_P=P_P$<br>
+        $H=\{P\mid{A_P=P_P}\}$<br>
+        $P\in{H}\iff{A_P=P_P}$<br>
+        $\therefore\;P\in{H}\Longrightarrow{\frac{ns^2\cot\frac{\pi}{n}}{4}=ns}$<br>
+        $\frac{s^2\cot\frac{\pi}{n}}{4}=s$<br>
+        $\frac{\cot\frac{\pi}{n}}{4}=\frac{s}{s^2}$<br>
+        $\frac{\cot\frac{\pi}{n}}{4}=\frac{1}{s}$<br>
+        $\frac{4}{\cot\frac{\pi}{n}}=s$<br>
+        $4\tan\frac{\pi}{n}=s$<br>
+        $\Box$
+    </div>
+    
+</body>
+
+</html>
